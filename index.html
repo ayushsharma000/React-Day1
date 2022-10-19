@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-1</title>
+</head>
+<body>
+    <h2>Q1. What is Virtual DOM</h2>
+    <ul>
+        <li>DOM is a document object model, created by converting HTML CSS and JS Real DOM, which is an object which gets created whenever any React application gets loaded on the screen for the first time., whenever React components gets mounted on the screen for the first time. Now when any user makes any changes on the screen like button click because of which the state variable will get updated so in this case the changes will not directly go to Real DOM , instead in react we have concept known Virtual DOM. So we are having two virtual doms, one virtual dom gets created at the time of mounting of react component so it is a copy of your real dom. Another virtual dom is the dom which contains the new changes, updated state variables values. Now these two virtual doms will get compared with each other and will check for the new changes. this complete procedure is known as diffing algorithm. Now the new changes will be updated in your Real dom. this procedure is known as Recoinciliation.</li>
+    </ul>
+    <h2>Q2. What is SPA</h2>
+    <ul>
+        <li>
+            A Single Page Application is a web application or website that interacts with the web browser by dynamically rewriting the current web page with new data from the web server, instead of the default method of the browser loading entire new pages.
+            This means that the URL of your website will not change completely (page will not reload), instead it will keep getting content and rewriting the DOM with it instead of loading a new page.
+        </li>
+    </ul>
+    <h2>Q3. What is difference between class and functional component</h2>
+    <ul>
+        <li>Class Component uses the Lifecycle methods where as in functional component have HOOKs</li>
+        <li>Functional component are also called stateless component while class component is called statefull component and there is no render function while in functional there is return  </li>
+        <li>functional component accepts props as argument but props and state can be accepted in class components</li>
+        <li>Functinal Componenrs are easty to read as they have less code but the class components have complex code structure and hard to write.</li>
+        <li>In class component we uses the "this " keyword but in functional we dont need the keyword</li>
+    </ul>
+    <h2>Q4. What do you mean by state and its use in react?</h2>
+    <ul>
+        <li>
+            The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders. The change in state can happen as a response to user action or system-generated events and these changes determine the behavior of the component and how it will render.  
+        </li>
+    </ul>
+    <h2>Q5. What is JSX and why do we use it instead of js?</h2>
+    <ul>
+        <li>
+            JSX stands for Javascript XML and it is a very useful tool for React developers. JSX is an extension of the JavaScript language which provides a way to structure component rendering using syntax similar to HTML. JSX gives us the ability to write HTML elements in Javascript and place them in the DOM by converting the HTML tags into React elements without the need for other methods like createElement() or appendChild(). 
+            JS is simply a scripting language, adding functionality into your website. JSX is an addition to the JavaScript syntax which is a mixture of both HTML and JavaScript. Both JS and JSX are interchangeable but JSX makes the code easier to understand for users.
+        </li>
+    </ul>
+    <h2>Q6. What is package.json</h2>
+    <ul>
+        <li>
+            All npm packages contain a file, usually in the project root, called package.json - this file holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies. It can also contain other metadata such as a project description, the version of the project in a particular distribution, license information, even configuration data.
+        </li>
+    </ul>
+</body>
+</html>
